@@ -12,7 +12,8 @@ body {
     padding: 4em 2em;
     height: 50vh;
     color: white;
-    background: black;
+    background: rgb(89,69,227);
+    background: linear-gradient(103deg, rgba(89,69,227,1) 18%, rgba(42,29,102,1) 100%);
     position: relative;
     z-index: 1;
 }
@@ -30,6 +31,7 @@ img {
     left: -20px;
     top: 3em;
     z-index: -1;
+    opacity: .8;
 }
 
 a {
