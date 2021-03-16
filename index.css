@@ -5,15 +5,14 @@ html, body {
 
 body {
     height: 100vh;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
     padding: 4em 2em;
     height: 50vh;
-    color: white;
-    background: rgb(89,69,227);
-    background: linear-gradient(103deg, rgba(89,69,227,1) 18%, rgba(42,29,102,1) 100%);
+    color: black;
+    background: linear-gradient(180deg, #fff3d0 0%, #e6c3ff 100%);
     position: relative;
     z-index: 1;
 }
@@ -31,7 +30,7 @@ img {
     left: -20px;
     top: 3em;
     z-index: -1;
-    opacity: .8;
+    opacity: 0.2;
 }
 
 a {
@@ -40,8 +39,8 @@ a {
     padding: .6em 1em;
     margin-top: 1em;
     display: inline-block;
-    background: white;
-    color: black;
+    color: white;
     font-weight: bold;
     border-radius: .3em;
+    background: linear-gradient(180deg, rgba(75,0,140,1) 0%, rgba(147,0,252,1) 100%);
 }
