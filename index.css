@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    height: 100%;
+    min-height: 100%;
     padding: 5em 2em;
     color: black;
     background: linear-gradient(304deg, #681dfd 0%, #8d00de 100%);
@@ -84,7 +84,7 @@ a {
 span {
     width: 5rem;
     height: 5rem;
-    background-color: lavender;
+    background: #E6C9FF;;
     position: absolute;
     border-radius: 50%;
     top: -3em;
